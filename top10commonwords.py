@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-  
-fileopen=open("commonwords.txt")
+fileopen=open("top10commonwords.txt")
 count=dict()
 for line in fileopen:
     words=line.split()
